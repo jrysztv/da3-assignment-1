@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "da3-assignment-1"
+version = "0.1.0"
+description = ""
+authors = ["Istvan Peter Jaray <istvanpeterjaray@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyter = "^1.1.1"
+pandas = "^2.2.3"
+openpyxl = "^3.1.5"
+scikit-learn = "^1.6.1"
+statsmodels = "^0.14.4"
+numpy = "^2.2.3"
+scipy = "^1.15.2"
+matplotlib = "^3.10.1"
+seaborn = "^0.13.2"
+tqdm = "^4.67.1"
+stargazer = "^0.0.7"
+patsy = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
